@@ -11,7 +11,7 @@ function myMap() {
       {
 
           id: 0,
-          tooltipText: '<h1>P1 qwerty</h1>',
+          tooltipText: '<h3>Title P1</h3><div>qweiuy</div',
           coords: [
               { lat: 46.47540839002595, lng: 30.733516309954016 },
               { lat: 46.47528101786862, lng: 30.73555527386255 },
@@ -22,7 +22,7 @@ function myMap() {
       {
 
           id: 1,
-          tooltipText: '<h1>P2 asdasd</h1>',
+          tooltipText: '<h3>Title P2</h3><div>aslkdlkasjd</div>',
           coords: [
               { lat: 46.48581797299432, lng: 30.73927872746029 },
               { lat: 46.485744090278494, lng: 30.740512548909482 },
