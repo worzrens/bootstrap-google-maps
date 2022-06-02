@@ -11,23 +11,21 @@
         <div style="display: flex; flex-direction: row; margin: 5px; margin-bottom: 20px;">
             <button id="add-all">Enable All</button>
             <button id="remove-all">Delete All</button>
+
+            <button id="remove-markers" style="margin-left: 10px">Remove Markers</button>
+            <button id="create-polygon">Create Custom Polygon</button>
         </div>
 
-        <div style="display: flex; flex-direction: row; margin: 5px">
-            <button id="add-p0">P1</button>
-            <button id="remove-p0">Delete P1</button>
-        </div>
-
-        <div style="display: flex; flex-direction: row; margin: 5px">
-            <button id="add-p1">P2</button>
-            <button id="remove-p1">Delete P2</button>
-        </div>
+        <div id="generated-buttons-container" style="display: flex; flex-direction: column;"></div>
     </div>
 </div>
 
 
-
 <script src="./map.js"></script>
+<script src="./polygon.js"></script>
+<script src="./tooltip.js"></script>
+<script src="./generateButton.js"></script>
+<script src="./predefinedData.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCvZL7g4N70VyA7sQdhVnrqMMWxC-JqK0&callback=myMap"></script>
 
